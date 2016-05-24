@@ -26,6 +26,16 @@ class Hangman
 
         // An instance method differs from a static method
         // in that it has a "this"
+
+        // In a class method, "this" is not a variable;  you cannot
+        // change it. It is a value. The value is a reference to the 
+        // receiver of the call.
+
+        // Notice that the unset properties of reference type are
+        // automatically set to null; properties do not have to
+        // be initially assigned, unlike local variables.
+
+        // Why is Outcome initially InProgress?
     }
 
 }
